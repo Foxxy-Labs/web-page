@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, Router } from 'react-router-dom'
 import { Button } from '../Button/Button';
-import logo from './logo.png'
+import logo from './favicon.ico'
 import './Navbar.css'
 
 function Navbar() {
@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src={logo} alt="Foxxy Labs logo" width="100%" />
+            <img src={logo} alt="Foxxy Labs logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
