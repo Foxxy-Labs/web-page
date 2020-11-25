@@ -7,6 +7,7 @@ function App() {
     <>
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
+        < Home />
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
