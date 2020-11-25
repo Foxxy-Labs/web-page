@@ -8,7 +8,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/foxxy-labs" exact component={Home} />
+          <Route path="/" exact component={Home} />
         </Switch>
       </Router>
     </>

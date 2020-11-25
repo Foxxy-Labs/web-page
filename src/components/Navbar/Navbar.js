@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, Router } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Button } from '../Button/Button';
 import logo from './favicon.ico'
 import './Navbar.css'
