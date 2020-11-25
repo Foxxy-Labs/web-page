@@ -5,11 +5,12 @@ import Home from './pages/Home'
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBIC_URL}>
+      <Router >
         <Navbar />
-        <Switch>
+        <Home />
+        {/* <Switch>
           <Route path="/" exact component={Home} />
-        </Switch>
+        </Switch> */}
       </Router>
     </>
   );

@@ -6,7 +6,7 @@ import './HeroSection.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted></video>
+      <video src='https://foxxy-labs.github.io/web-page/videos/video-1.mp4' autoPlay loop muted playsInline></video>
       <h1>FOXXY LABS.</h1>
       <p>Technologies</p>
       <div className='hero-btns'>

@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src='/images/cat_caviar.jpg'
+              src='https://foxxy-labs.github.io/web-page/images/cat_caviar.jpg'
               text='Check it out'
               label='Fancycat.com'
               path='/web-page/portfolio' />
