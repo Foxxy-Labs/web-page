@@ -13,7 +13,7 @@ function Cards() {
               src='../../../images/cat_caviar.jpg'
               text='Check it out'
               label='Fancycat.com'
-              path='/portfolio' />
+              path='/web-page' />
 
           </ul>
         </div>
