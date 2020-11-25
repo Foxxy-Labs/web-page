@@ -10,10 +10,10 @@ function Cards() {
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src='../../../images/cat_caviar.jpg'
+              src='/images/cat_caviar.jpg'
               text='Check it out'
               label='Fancycat.com'
-              path='/portfolio' />
+              path='/web-page/portfolio' />
 
           </ul>
         </div>
